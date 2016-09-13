@@ -1,0 +1,13 @@
+---
+layout: post
+title: Week 3
+---
+
+Now that Collatz is finished, it looks like the class is moving full steam ahead into Project 2: Netflix. I don't understand all the specifics of the project yet, but it looks like it's based on the [Netflix Prize](https://en.wikipedia.org/wiki/Netflix_Prize) problem, which is pretty cool. We briefly studied this contest in Dr. Mooney's CS 371R: Information Retrieval class, and I'm genuinely excited to get to write some code to attempt to solve it.
+
+Last week was spent mostly on finishing Collatz. I cut it a bit close to the deadline trying to get everything properly submitted (even though I got SPOJ to pass well before the deadline), having to deal with inexplicable merge conflicts at the end (I'm not sure how I created a merge conflict when I was the only one working on the dev branch, but it might've been an issue between conflicting commits between when I was ssh'd into the lab and on my local machine). However, I was able to get everything packaged together by the deadline, and while we haven't gotten feedback yet, I'm pretty confident with my submission.
+
+For this week, I plan on getting started on Netflix with my partner. It's been awhile since I've done Pair Programming, but I like the idea of collaborating with someone directly on the same parts, rather than having us each work on separate components. I've already got some ideas in my head for how to best implement a good cache for an optimal RMSE, but I'm waiting until we can both meet in the lab before writing any actual code 
+
+tip-of-the-week: 
+Continuing with last week's theme of Chromebook hacks, I got to try out [GalliumOS](https://galliumos.org/) this weekend on my old Acer C720p. Part of what makes Chrome OS so awesome is how it can run on very low-end machines due to how lightweight it is. However, like most operating systems, it tends to get bloated over the years as hardware gets better, meaning that, for systems like my C720p (with a dual-core Celeron processor and only 2gb of ram), the OS tends to slow down over the years, especially when I'm trying to use it in conjunction with Crouton. Anyway, I decided to try out GalliumOS because I wanted to use this laptop for playing movies on the TV in my living room, and the new [HEVC encoding](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) had proven basically impossible to find a supported player in Chrome OS. GalliumOS is based on Xubuntu, but has useful parts from [Chromium OS](https://www.chromium.org/chromium-os) such as near-flawless touchpad and wireless drivers working out-of-the-box. It's very lightweight, and actually has a nice aesthetic to it as well, and it's breathed new life into my machine!
